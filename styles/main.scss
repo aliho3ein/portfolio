@@ -1,0 +1,33 @@
+@import "./variable";
+@import "./header";
+@import "./about";
+@import "./instagram";
+@import "./work";
+@import "./navbar";
+@import "./project";
+@import "./footer";
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  background: $primary-color;
+  @extend html;
+}
+
+main {
+  padding-block: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#aboutBase,
+#mobileBase,
+header {
+  // display: none;
+}

@@ -221,7 +221,7 @@ header .fa-chevron-down {
   position: absolute;
   transition: transform 500ms;
   overflow: hidden;
-  background: linear-gradient(to top right, rgba(0, 0, 0, 0.5), transparent), center/cover url(https://static.roocket.ir/images/avatar/2022/9/2/7KrbcjgnxfrGVs0xKpdd3JjphqSVSPGLy4jZ54i7.png?width=40&height=40);
+  background: linear-gradient(to top right, rgba(0, 0, 0, 0.5), transparent), center/cover url(../image/profile.png);
 }
 
 @media screen and (min-width: 1000px) {
@@ -397,7 +397,7 @@ div[class*=part] {
   margin: 10px 8px 0px;
   border-radius: 50%;
   float: left;
-  background: linear-gradient(to top right, rgba(0, 0, 0, 0.5), transparent), center/cover url(https://static.roocket.ir/images/avatar/2022/9/2/7KrbcjgnxfrGVs0xKpdd3JjphqSVSPGLy4jZ54i7.png?width=40&height=40);
+  background: linear-gradient(to top right, rgba(0, 0, 0, 0.5), transparent), center/cover url(./../image/profile.png);
 }
 #mobileBase .mobile .screen .inHeader {
   float: right;

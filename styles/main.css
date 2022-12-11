@@ -48,7 +48,7 @@ header .headText > h1 {
   font-weight: 400;
   font: 1.1rem "Kdam Thmor Pro", sans-serif;
   letter-spacing: 2px;
-  word-spacing: 15px;
+  width: 150%;
 }
 header .headText .heLine {
   height: 100%;
@@ -185,7 +185,7 @@ header .fa-chevron-down {
 }
 #aboutBase h2 {
   height: 100px;
-  width: 60%;
+  width: 100%;
   display: grid;
   place-content: center;
   font: 3rem "Kdam Thmor Pro", sans-serif;
@@ -231,6 +231,7 @@ header .fa-chevron-down {
   }
   #aboutBase h2 {
     margin: 0;
+    width: 60%;
   }
   #aboutBase p {
     text-align: start;
@@ -521,7 +522,6 @@ div[class*=part] {
   height: 100vh;
   width: 100vw;
   position: relative;
-  overflow: hidden;
   display: grid;
   place-content: center;
   -webkit-user-select: none;
@@ -542,7 +542,7 @@ div[class*=part] {
   width: 100%;
   color: #fff;
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   align-items: center;
 }
 #skillBase ul li {
@@ -588,6 +588,7 @@ div[class*=part] {
 #skillBase > h2 {
   font: 3rem "Kdam Thmor Pro", sans-serif;
   color: #e5a455;
+  text-align: center;
 }
 #skillBase .baseSkill {
   height: 300px;

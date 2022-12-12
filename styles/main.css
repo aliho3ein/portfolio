@@ -190,6 +190,10 @@ header .fa-chevron-down {
   font: 3rem "Kdam Thmor Pro", sans-serif;
   color: #e5a455;
   margin: 100px auto 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #aboutBase p {
   text-align: center;
@@ -550,10 +554,6 @@ div[class*=part] {
   list-style: none;
   display: flex;
   align-items: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 #skillBase ul li:before {
   font: var(--fa-font-brands);
@@ -588,6 +588,10 @@ div[class*=part] {
   font: 3rem "Kdam Thmor Pro", sans-serif;
   color: #e5a455;
   text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #skillBase .baseSkill {
   height: 300px;
@@ -710,6 +714,10 @@ div[class*=part] {
   border-radius: 5px;
   transform: rotate(-180deg);
   z-index: 99;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .burger:after, .burger:before {
   content: "";
@@ -819,6 +827,10 @@ nav ul li a:hover {
   height: 1000px;
   margin-block: 100px;
   display: grid;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   grid-template: repeat(6, 1fr)/repeat(2, 1fr);
   grid-template-areas: "txt txt" " piano ." " . blog" " pizza ." ". todo " " snake .";
 }
@@ -888,16 +900,16 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 100px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 footer span {
   color: #ccc;
   font-size: 1.3rem;
 }
 footer .social {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: auto;
   height: 50px;
   display: flex;

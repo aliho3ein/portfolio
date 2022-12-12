@@ -6,7 +6,6 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 100px;
-  user-select: none;
 
   span {
     color: #ccc;
@@ -15,6 +14,7 @@ footer {
 
   .social {
     // width: 250px;
+    user-select: none;
     width: auto;
     height: 50px;
     display: flex;

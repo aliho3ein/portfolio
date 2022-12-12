@@ -5,6 +5,7 @@
   height: 1000px;
   margin-block: 100px;
   display: grid;
+  user-select: none;
   grid-template: repeat(6, 1fr) / repeat(2, 1fr);
   grid-template-areas:
     "txt txt"

@@ -40,7 +40,6 @@
       list-style: none;
       display: flex;
       align-items: center;
-      user-select: none;
 
       &:before {
         font: var(--fa-font-brands);
@@ -79,6 +78,7 @@
     font: 3rem $fantasy-font;
     color: $secondary-color;
     text-align: center;
+    user-select: none;
   }
 
   .baseSkill {
